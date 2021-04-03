@@ -2,11 +2,15 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-    <link rel="preload" href="./css/styles.css" as="style">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" href="./css/styles.css" as="style" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -19,128 +23,312 @@
     <title>Really nice landing</title>
   </head>
   <body>
-        <header class="header">
-          <nav class="navbar navbar-expand-md navbar-light bg-light header-nav-my">
-            <div class="container">
-             
-              <a class="navbar-brand" href="#">
-                <img
-                width="2"
-                height="1"
-                loading="lazy"
-                class="header-logo"
-                src="./img/logo.svg" alt="Logo">
-              </a>
-              <button 
-              class="navbar-toggler navbar-my" 
-              type="button" 
-              data-bs-toggle="collapse" 
-              data-bs-target="#navbarSupportedContent" 
-              aria-controls="navbarSupportedContent" 
-              aria-expanded="false" 
-              aria-label="Toggle navigation">
-               <img 
-               width="1"
-               height="1"
-               loading="lazy"
-               class="burger-menu-my"
-               src="./img/burger-menu.svg" alt="Burger menu">
+    <header class="header">
+      <nav class="navbar navbar-expand-md navbar-light bg-light header-nav-my">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              width="2"
+              height="1"
+              loading="lazy"
+              class="header-logo"
+              src="./img/logo.svg"
+              alt="Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler navbar-my"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img
+              width="1"
+              height="1"
+              loading="lazy"
+              class="burger-menu-my"
+              src="./img/burger-menu.svg"
+              alt="Burger menu"
+            />
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a class="icon-search" href="#">
+            <img
+              class="nav-icons"
+              width="1"
+              height="1"
+              loading="lazy"
+              src="./img/search-alt.svg"
+              alt="Search"
+            />
+          </a>
+          <a class="icon-call ms-3" href="tel:+40 729 131 637">
+            <img
+              class="nav-icons me-2"
+              width="1"
+              height="1"
+              loading="lazy"
+              src="./img/mobile-vibration.svg"
+              alt="Call us"
+            />
+            Call us
+          </a>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nav-link-my" aria-current="page" href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-my" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-my" href="#"> FAQ </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-my" href="#">Contact</a>
+            </li>
+          </ul>
+          <button class="btn btn-style btn-primary-col">Download</button>
+          <button class="btn btn-style btn-secondary-col">Sign up</button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="container col-12 col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-12 col-10 col-sm-8 col-lg-6 order-2 order-lg-0">
+            <picture class="picture">
+              <source srcset="img/promo-image.webp" type="image/webp">
+                <source srcset="img/promo-image.png" type="image/png">
+                  <img
+                  src="./img/promo-image.png"
+                  class="d-block mx-lg-auto img-fluid hero-img"
+                  alt="Bootstrap Themes"
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                />
+            </picture>
+           
+          </div>
+          <div class="col-12 col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              At vero eos et accusamus et iusto odio dignissimos ducimus
+            </h1>
+            <p class="lead">
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam et aut officiis debitis aut rerum necessitatibus
+              saepe eveniet, ut et voluptates repudiandae sint et molestiae non
+              recusandae.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                Try for free
               </button>
-             </div>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <a href="tel:+40 729 131 637">
-                  
-
-                </a>
-                <button class="btn btn-secondary">Call</button>
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <button class="btn btn-secondary">Click</button>
-                <button class="btn btn-secondary">Click</button>
-              </div>
-            
-          </nav>
-        </header>
-
-        <section class="hero">
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 ">
-              <div class="col-10 col-sm-8 col-lg-6 order-2 order-lg-0">
-                <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid " alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6 ">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                  
-                </div>
-              </div>
             </div>
           </div>
-        </section>
-        <section class="about">
-          <div class="container col-xxl-8 px-4 py-5">
-            <div class="row align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
-                <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-              </div>
-              <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-                </div>
-              </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 order-2 order-lg-0">
+            <picture class="picture">
+              <source srcset="img/requirements-image.webp" type="image/webp">
+                <source srcset="img/requirements-image.png" type="image/png">
+                  <img
+                  src="./img/requirements-image.png"
+                  class="d-block mx-lg-auto img-fluid hero-img"
+                  alt="Bootstrap Themes"
+                  width="1"
+                  height="1"
+                  loading="lazy"
+                />
+            </picture>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">
+              Responsive left-aligned hero with image
+            </h1>
+            <p class="lead">
+              Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the world’s most popular front-end open source toolkit,
+              featuring Sass variables and mixins, responsive grid system,
+              extensive prebuilt components, and powerful JavaScript plugins.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 col-6">
+                Primary
+              </button>
             </div>
           </div>
-        </section>
-        <section class="features">
-          <div class="container">
-            <div class="row">
-              <div class="col-6">
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque expedita sapiente tempore aliquid voluptates deserunt?</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, earum ratione tempore perspiciatis nobis debitis commodi tenetur? Autem asperiores quisquam quam eveniet, beatae nisi magni hic quidem suscipit totam quia?</p>
-                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                  <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
-                  <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
-                  <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-                  <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
-                </div>
-              </div>
-              <div class="tab-content col-6" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">1111Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia unde rem veniam nisi libero, laborum fuga neque repudiandae expedita quo voluptatum nesciunt sit laboriosam sapiente voluptatibus eveniet sunt. Atque quia totam saepe obcaecati odit vero harum distinctio dolorem numquam voluptatem nihil corporis, alias consequatur vel ab veniam cupiditate maxime! Quas ducimus possimus recusandae assumenda natus obcaecati voluptas dolore tenetur tempore autem a officiis repellendus eveniet, odit veritatis, itaque impedit cumque dicta id explicabo accusantium? Quos ea provident eius asperiores accusamus culpa necessitatibus pariatur cumque voluptate aperiam. Ut explicabo excepturi earum. Dolores provident alias nisi perspiciatis incidunt sequi reiciendis autem officia.</div>
-                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">2222Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia unde rem veniam nisi libero, laborum fuga neque repudiandae expedita quo voluptatum nesciunt sit laboriosam sapiente voluptatibus eveniet sunt. Atque quia totam saepe obcaecati odit vero harum distinctio dolorem numquam voluptatem nihil corporis, alias consequatur vel ab veniam cupiditate maxime! Quas ducimus possimus recusandae assumenda natus obcaecati voluptas dolore tenetur tempore autem a officiis repellendus eveniet, odit veritatis, itaque impedit cumque dicta id explicabo accusantium? Quos ea provident eius asperiores accusamus culpa necessitatibus pariatur cumque voluptate aperiam. Ut explicabo excepturi earum. Dolores provident alias nisi perspiciatis incidunt sequi reiciendis autem officia.</div>
-                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">3333Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia unde rem veniam nisi libero, laborum fuga neque repudiandae expedita quo voluptatum nesciunt sit laboriosam sapiente voluptatibus eveniet sunt. Atque quia totam saepe obcaecati odit vero harum distinctio dolorem numquam voluptatem nihil corporis, alias consequatur vel ab veniam cupiditate maxime! Quas ducimus possimus recusandae assumenda natus obcaecati voluptas dolore tenetur tempore autem a officiis repellendus eveniet, odit veritatis, itaque impedit cumque dicta id explicabo accusantium? Quos ea provident eius asperiores accusamus culpa necessitatibus pariatur cumque voluptate aperiam. Ut explicabo excepturi earum. Dolores provident alias nisi perspiciatis incidunt sequi reiciendis autem officia.</div>
-                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">4444Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia unde rem veniam nisi libero, laborum fuga neque repudiandae expedita quo voluptatum nesciunt sit laboriosam sapiente voluptatibus eveniet sunt. Atque quia totam saepe obcaecati odit vero harum distinctio dolorem numquam voluptatem nihil corporis, alias consequatur vel ab veniam cupiditate maxime! Quas ducimus possimus recusandae assumenda natus obcaecati voluptas dolore tenetur tempore autem a officiis repellendus eveniet, odit veritatis, itaque impedit cumque dicta id explicabo accusantium? Quos ea provident eius asperiores accusamus culpa necessitatibus pariatur cumque voluptate aperiam. Ut explicabo excepturi earum. Dolores provident alias nisi perspiciatis incidunt sequi reiciendis autem officia.</div>
-              </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              expedita sapiente tempore aliquid voluptates deserunt?
+            </h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              earum ratione tempore perspiciatis nobis debitis commodi tenetur?
+              Autem asperiores quisquam quam eveniet, beatae nisi magni hic
+              quidem suscipit totam quia?
+            </p>
+            <div
+              class="nav flex-column nav-pills me-3"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active"
+                id="v-pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-home"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+              >
+                Home
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+              >
+                Profile
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-messages-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-messages"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+              >
+                Messages
+              </button>
+              <button
+                class="nav-link"
+                id="v-pills-settings-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-settings"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-settings"
+                aria-selected="false"
+              >
+                Settings
+              </button>
             </div>
           </div>
-        </section>
-
-
-
+          <div class="tab-content col-6" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+              1111Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              unde rem veniam nisi libero, laborum fuga neque repudiandae
+              expedita quo voluptatum nesciunt sit laboriosam sapiente
+              voluptatibus eveniet sunt. Atque quia totam saepe obcaecati odit
+              vero harum distinctio dolorem numquam voluptatem nihil corporis,
+              alias consequatur vel ab veniam cupiditate maxime! Quas ducimus
+              possimus recusandae assumenda natus obcaecati voluptas dolore
+              tenetur tempore autem a officiis repellendus eveniet, odit
+              veritatis, itaque impedit cumque dicta id explicabo accusantium?
+              Quos ea provident eius asperiores accusamus culpa necessitatibus
+              pariatur cumque voluptate aperiam. Ut explicabo excepturi earum.
+              Dolores provident alias nisi perspiciatis incidunt sequi
+              reiciendis autem officia.
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-profile"
+              role="tabpanel"
+              aria-labelledby="v-pills-profile-tab"
+            >
+              2222Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              unde rem veniam nisi libero, laborum fuga neque repudiandae
+              expedita quo voluptatum nesciunt sit laboriosam sapiente
+              voluptatibus eveniet sunt. Atque quia totam saepe obcaecati odit
+              vero harum distinctio dolorem numquam voluptatem nihil corporis,
+              alias consequatur vel ab veniam cupiditate maxime! Quas ducimus
+              possimus recusandae assumenda natus obcaecati voluptas dolore
+              tenetur tempore autem a officiis repellendus eveniet, odit
+              veritatis, itaque impedit cumque dicta id explicabo accusantium?
+              Quos ea provident eius asperiores accusamus culpa necessitatibus
+              pariatur cumque voluptate aperiam. Ut explicabo excepturi earum.
+              Dolores provident alias nisi perspiciatis incidunt sequi
+              reiciendis autem officia.
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-messages"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+              3333Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              unde rem veniam nisi libero, laborum fuga neque repudiandae
+              expedita quo voluptatum nesciunt sit laboriosam sapiente
+              voluptatibus eveniet sunt. Atque quia totam saepe obcaecati odit
+              vero harum distinctio dolorem numquam voluptatem nihil corporis,
+              alias consequatur vel ab veniam cupiditate maxime! Quas ducimus
+              possimus recusandae assumenda natus obcaecati voluptas dolore
+              tenetur tempore autem a officiis repellendus eveniet, odit
+              veritatis, itaque impedit cumque dicta id explicabo accusantium?
+              Quos ea provident eius asperiores accusamus culpa necessitatibus
+              pariatur cumque voluptate aperiam. Ut explicabo excepturi earum.
+              Dolores provident alias nisi perspiciatis incidunt sequi
+              reiciendis autem officia.
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-settings"
+              role="tabpanel"
+              aria-labelledby="v-pills-settings-tab"
+            >
+              4444Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              unde rem veniam nisi libero, laborum fuga neque repudiandae
+              expedita quo voluptatum nesciunt sit laboriosam sapiente
+              voluptatibus eveniet sunt. Atque quia totam saepe obcaecati odit
+              vero harum distinctio dolorem numquam voluptatem nihil corporis,
+              alias consequatur vel ab veniam cupiditate maxime! Quas ducimus
+              possimus recusandae assumenda natus obcaecati voluptas dolore
+              tenetur tempore autem a officiis repellendus eveniet, odit
+              veritatis, itaque impedit cumque dicta id explicabo accusantium?
+              Quos ea provident eius asperiores accusamus culpa necessitatibus
+              pariatur cumque voluptate aperiam. Ut explicabo excepturi earum.
+              Dolores provident alias nisi perspiciatis incidunt sequi
+              reiciendis autem officia.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -150,8 +338,6 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
-
-
 
     <ul>
       <li>Lorem, ipsum dolor.</li>

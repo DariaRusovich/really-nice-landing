@@ -566,7 +566,7 @@ table {
 a,
 span {
   display: inline-flex;
-  text-decoration: none;
+  text-decoration: none !important;
   color: inherit;
 }
 html {
@@ -575,9 +575,9 @@ html {
 
 body {
   background: #fff;
-  color: #fff;
+  color: #63718E;
   font-style: normal;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
 picture {
@@ -602,7 +602,7 @@ button {
 
 
 .header-nav-my{
- 
+  padding: 12px;
   box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
 }
 .header-logo{
@@ -614,5 +614,49 @@ button {
 }
 .burger-menu-my{
   width: 30px;
+  height: auto;
+}
+
+.nav-icons{
+  width: 24px;
+  height: auto;
+  
+}
+.icon-call{
+  font-weight: bold;
+  font-size: 15px;
+  color: #63718E;
+}
+.navbar-collapse .btn-style{
+  
+border-radius: 10px;
+padding: 6px 24px;
+font-weight: bold;
+font-size: 15px;
+
+}
+.navbar-collapse .btn-primary-col{
+  background: #C774EE;
+  color: #FFF;
+}
+.navbar-collapse .btn-secondary-col{
+  border: 2px solid #63718E;
+  color: #63718E;
+}
+
+.navbar-light .navbar-nav>.nav-item>.nav-link-my{
+  font-size: 15px;
+  color: #63718E;
+}
+
+
+/* ============HEADER STYLES START============== */
+
+.picture{
+  width: 300px;
+  height: 225px;
+}
+.hero-img{
+  width: 100%;
   height: auto;
 }
