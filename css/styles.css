@@ -494,10 +494,11 @@ button {
 }
 .btn-style{
 border-radius: 10px;
-padding: 16px 0;
+padding: 12px 0;
 font-weight: bold;
 font-size: 20px;
 }
+
 .btn-primary-col{
   background: #C774EE;
   color: #FFF;
@@ -547,8 +548,36 @@ border: #fff;
 .card-avatar{
   width: 24px;
   height: auto;
- 
+}
+/* ============HEADER STYLES END============== */
+
+/* ==========SECTION CALK STYLES START=============== */
+
+.input-control{
+  border: 1px solid transparent;
+  /* background: #F9FAFC; */
+box-shadow: 0px 1px 3px rgba(5, 41, 83, 0.14);
+border-radius: 10px;
+padding: 12px;
+font-size: 15px;
+line-height: 20px;
+color: #111563;
+
 
 }
 
+.input-control:hover{
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.05);
+}
+.input-control:focus{
+  border: 1px solid #C774EE;
+}
+.input-range::placeholder{
+  text-align: center;
+  font-size: 15px;
+  color: #111563;
 
+}
+.input-date{
+  text-align: center;
+}
