@@ -443,6 +443,7 @@ body {
   font-style: normal;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
+  padding-bottom: 1000px; /*development*/
 }
 picture {
   display: inline-block;
@@ -585,3 +586,21 @@ button.input-control{
   text-align: center;
 }
 
+.calc-result{
+  font-size: 22px;
+text-align: center;
+color: #C774EE;
+}
+.slider-card{
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+  border-radius: 8px;
+  padding: 37px 18px;
+}
+.bg-card{
+  background: url(../img/quote.svg) no-repeat center / 100%;
+}
+.reviews-slider .swiper-pagination-bullet{
+  width: 15px;
+  height: 15px;
+  background: #286DBD;
+}
