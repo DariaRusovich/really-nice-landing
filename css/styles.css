@@ -424,149 +424,13 @@
   src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/*===========CSS RESET START============*/
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-/*===========CSS RESET END============*/
 
 /*===========COMMON STYLES START============*/
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
+
 a,
 span {
   display: inline-flex;
-  text-decoration: none !important;
+  text-decoration: none;
   color: inherit;
 }
 html {
@@ -577,7 +441,7 @@ body {
   background: #fff;
   color: #63718E;
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
 picture {
@@ -601,21 +465,22 @@ button {
 /*===========HEADER STYLES START============*/
 
 
-.header-nav-my{
+.header{
   padding: 12px;
   box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
 }
-.header-logo{
+.logo-img{
   width: 116px;
   height: auto;
 }
-.navbar-light .navbar-my{
-  border-color: #fff;
+
+.burger-img{
+  background: url(../img/burger-menu.svg) no-repeat center / 100%;
+ width: 36px;
+ height: 36px;
+  
 }
-.burger-menu-my{
-  width: 30px;
-  height: auto;
-}
+
 
 .nav-icons{
   width: 24px;
@@ -627,27 +492,28 @@ button {
   font-size: 15px;
   color: #63718E;
 }
-.navbar-collapse .btn-style{
-  
+.btn-style{
 border-radius: 10px;
-padding: 6px 24px;
+padding: 16px 0;
 font-weight: bold;
-font-size: 15px;
-
+font-size: 20px;
 }
-.navbar-collapse .btn-primary-col{
+.btn-primary-col{
   background: #C774EE;
   color: #FFF;
+  transition: 0.3s;
 }
-.navbar-collapse .btn-secondary-col{
+.btn-primary-col:hover{
+  box-shadow: 0px 5px 10px rgba(76, 174, 80, 0.3);
+  color: #fff;
+}
+
+.btn-secondary-col{
   border: 2px solid #63718E;
   color: #63718E;
 }
 
-.navbar-light .navbar-nav>.nav-item>.nav-link-my{
-  font-size: 15px;
-  color: #63718E;
-}
+
 
 
 /* ============HEADER STYLES START============== */
@@ -660,6 +526,14 @@ font-size: 15px;
   width: 100%;
   height: auto;
 }
+.title{
+  font-size: 22px;
+  color: #111563;
+}
+.hero-main-text{
+  font-size: 18px;
+}
+
 .about .card-body-my{
   box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
 border-radius: 8px;
