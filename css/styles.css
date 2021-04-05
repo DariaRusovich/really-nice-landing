@@ -552,7 +552,10 @@ border: #fff;
 /* ============HEADER STYLES END============== */
 
 /* ==========SECTION CALK STYLES START=============== */
-
+.calc-card{
+  box-shadow: 0px 0px 75px rgba(91, 167, 202, 0.15);
+  padding: 23px 10px 42px 10px;
+}
 .input-control{
   border: 1px solid transparent;
   /* background: #F9FAFC; */
@@ -562,10 +565,10 @@ padding: 12px;
 font-size: 15px;
 line-height: 20px;
 color: #111563;
-
-
 }
-
+button.input-control{
+  font-size: 25px;
+} 
 .input-control:hover{
   box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.05);
 }
@@ -581,3 +584,4 @@ color: #111563;
 .input-date{
   text-align: center;
 }
+
