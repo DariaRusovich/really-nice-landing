@@ -596,9 +596,16 @@ color: #C774EE;
   border-radius: 8px;
   padding: 37px 18px;
 }
-.bg-card{
-  background: url(../img/quote.svg) no-repeat center / 100%;
+.marks i:not(:first-child){
+margin-left: 5px;
 }
+.marks i{
+  color:  #C774EE;
+}
+.bg-card{
+  background: url(../img/quote.svg) no-repeat left top / 100%;
+}
+
 .reviews-slider .swiper-pagination-bullet{
   width: 15px;
   height: 15px;
