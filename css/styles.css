@@ -607,8 +607,13 @@ margin-left: 5px;
 }
 .bg-card{
   background: url(../img/quote.svg) no-repeat left top / 100%;
+  width: 46px;
+  height: 46px;
+  
 }
-
+.icon-marks{
+  width: 100%;
+}
 .reviews-slider .swiper-pagination-bullet{
   width: 15px;
   height: 15px;
