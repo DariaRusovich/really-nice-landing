@@ -531,6 +531,7 @@ font-size: 20px;
 .title{
   font-size: 22px;
   color: #111563;
+  font-family: 'Epilogue';
 }
 .hero-main-text{
   font-size: 18px;
@@ -629,3 +630,26 @@ margin-left: 5px;
  width: 300px;
  overflow: hidden;
 } */
+
+
+/* ============= ADVANTAGES SECTION START================ */
+
+.advantages-list>li{
+  
+  list-style-type: none;
+  position: relative;
+}
+
+.advantages-list>li:not(:first-child){
+  margin-top: 20px;
+}
+
+.advantages-list li::before{
+  content: url(../img/ellipse.svg);
+  width: 10px;
+  height: 10px;
+  padding-right: 30px;
+  position: absolute;
+  top: 0;
+  right: 100%;
+}
