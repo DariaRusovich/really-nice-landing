@@ -559,13 +559,16 @@ border: #fff;
 }
 .input-control{
   border: 1px solid transparent;
-  /* background: #F9FAFC; */
+  background-color: #F9FAFC;
 box-shadow: 0px 1px 3px rgba(5, 41, 83, 0.14);
 border-radius: 10px;
 padding: 12px;
 font-size: 15px;
 line-height: 20px;
 color: #111563;
+}
+.btn-input{
+  padding: 0;
 }
 button.input-control{
   font-size: 25px;
