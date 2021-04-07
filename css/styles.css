@@ -653,3 +653,22 @@ margin-left: 5px;
   top: 0;
   right: 100%;
 }
+
+
+.accordion-item .section-accordion-btn{
+  color: #111563;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.item-acc-btn{
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+border-radius: 8px;
+}
+
+.item-acc-btn:not(:first-child){
+  margin-top: 20px;
+}
