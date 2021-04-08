@@ -676,3 +676,25 @@ border-radius: 8px;
 .btn-wrapp{
   width: 100%;
 }
+
+
+.footer{
+  padding: 35px 0 24px 0;
+  background: #1C1E1F;
+  font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.18;
+color: #7E8183;
+}
+.footer-nav{
+  width: 290px;
+}
+
+.footer-menu>li{
+  list-style-type: none;
+  padding: 5px;
+
+}
+.footer-menu>li:not(:first-child){
+  margin-top: 5px;
+}
