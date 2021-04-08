@@ -698,3 +698,6 @@ color: #7E8183;
 .footer-menu>li:not(:first-child){
   margin-top: 5px;
 }
+.tel{
+  width: 143px;
+}
