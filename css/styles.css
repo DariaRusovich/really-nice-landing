@@ -687,7 +687,10 @@ line-height: 1.18;
 color: #7E8183;
 }
 .footer-nav{
-  width: 290px;
+  width: 250px;
+}
+.footer-menu{
+  padding: 0;
 }
 
 .footer-menu>li{
@@ -698,6 +701,25 @@ color: #7E8183;
 .footer-menu>li:not(:first-child){
   margin-top: 5px;
 }
-.tel{
-  width: 143px;
+
+.icons-footer>i{
+ color: #fff;
+ background: #C774EE;
+ border-radius: 2px;
+ padding: 3px;
+}
+
+.icons-footer>i:not(:first-child){
+  margin-left: 5px;
+}
+
+.icons-footer p{
+  margin: 0;
+  padding-left: 5px;
+  color: #C774EE;
+}
+
+.icons-footer span{
+  color:rgba(96, 96, 96, 0.5);
+  
 }
