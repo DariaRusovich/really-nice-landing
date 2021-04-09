@@ -829,3 +829,25 @@ button.input-control {
 .social-icons:hover {
   filter: none;
 }
+.payment-btns>button{
+  padding: 0;
+}
+.payment-img{
+  width: 100%;
+  height: auto;
+  
+}
+.payment-master{
+  margin-left: 10px;
+}
+.protect{
+  font-weight: 700;
+}
+
+  
+.protect span{
+  background: #7E8183;
+  color: #1c1e1f;
+  padding: 2px;
+  margin-left: 6px;
+}

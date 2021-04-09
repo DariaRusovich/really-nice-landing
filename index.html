@@ -602,10 +602,8 @@
     </section>
 
     <section class="section-accordion">
-      <div class="container ">
-        <h2 class="title fw-bold lh-1 mb-4 mt-5 text-center">
-          FAQ
-        </h2>
+      <div class="container">
+        <h2 class="title fw-bold lh-1 mb-4 mt-5 text-center">FAQ</h2>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item item-acc-btn">
             <h2 class="title" id="headingOne">
@@ -690,11 +688,11 @@
         </div>
         <div class="btn-wrapp flex-column align-items-center">
           <button
-        type="button"
-        class="btn btn-primary-col btn-style col-6 btn-lg mt-3 mb-5"
-      >
-        Try for free
-      </button>
+            type="button"
+            class="btn btn-primary-col btn-style col-6 btn-lg mt-3 mb-5"
+          >
+            Try for free
+          </button>
         </div>
       </div>
     </section>
@@ -708,7 +706,7 @@
             <li><a href="#">FAQ</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-            <ul class="footer-menu">
+          <ul class="footer-menu">
             <li><a href="#">Blog</a></li>
             <li><a href="#">How it works</a></li>
             <li><a href="#">Clients</a></li>
@@ -716,11 +714,10 @@
           </ul>
         </div>
         <a class="footer-tel" href="tel:+49(621) 53399112">
-         +49(621) 53399112
-          Call us
+          +49(621) 53399112 Call us
         </a>
 
-        <div class="icons-footer d-flex mt-3 align-items-center">
+        <div class="icons-footer d-flex mt-5 align-items-center">
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -728,27 +725,59 @@
           <i class="fas fa-star-half-alt"></i>
           <p>4.5<span>/</span>5</p>
         </div>
-        <button class="btn footer-drop-btn mt-4" 
-        type="button" 
-        data-bs-toggle="dropdown" 
-        aria-expanded="false">
-        Info
+        <button
+          class="btn footer-drop-btn mt-5"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Info
         </button>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">Action</a></li>
           <li><a class="dropdown-item" href="#">Another action</a></li>
           <li><a class="dropdown-item" href="#">Something else here</a></li>
-          <li><hr class="dropdown-divider"></li>
+          <li><hr class="dropdown-divider" /></li>
           <li><a class="dropdown-item" href="#">Separated link</a></li>
         </ul>
-        <div class="social-group mt-3">
+        <div class="social-group mt-5">
           <a href="#" class="icon-facebook social-icons"></a>
           <a href="#" class="icon-instagram social-icons"></a>
           <a href="#" class="icon-youtube social-icons"></a>
           <a href="#" class="icon-pint social-icons"></a>
         </div>
+        <div class="payment-btns mt-5">
+          <button class="payment-visa">
+            <img
+              width="1"
+              height="1"
+              loading="lazy"
+              src="./img/cc-visa.svg"
+              alt="Visa"
+              class="payment-img"
+            />
+          </button>
+          <button class="payment-master">
+            <img
+              width="1"
+              height="1"
+              loading="lazy"
+              src="./img/cc-mastercard.svg"
+              alt="Visa"
+              class="payment-img"
+            />
+          </button>
+        </div>
+        <div class="protect mt-5">
+          <p>DMCA<span>PROTECTED</span></p>
+        </div>
 
-
+        <a href="#">
+          © Copyright 2016<span id="copyYear">2019</span>
+        </a>
+        <script>
+          copyYear.textContent = new Date().getFullYear();
+        </script>
       </div>
     </footer>
 
