@@ -599,6 +599,8 @@ button {
 
 /* ============HEADER STYLES START============== */
 
+/* ============HERO STYLES START============== */
+
 .picture {
   width: 300px;
   height: 225px;
@@ -630,7 +632,7 @@ button {
   width: 24px;
   height: auto;
 }
-/* ============HEADER STYLES END============== */
+/* ============HERO STYLES END============== */
 
 /* ==========SECTION CALK STYLES START=============== */
 .calc-card {
@@ -673,6 +675,10 @@ button.input-control {
   text-align: center;
   color: #c774ee;
 }
+/* ==========SECTION CALK STYLES END=============== */
+
+/* ==========SECTION REVIEWS STYLES START=============== */
+
 .slider-card {
   box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
   border-radius: 8px;
@@ -705,6 +711,8 @@ button.input-control {
  width: 300px;
  overflow: hidden;
 } */
+
+/* ==========SECTION REVIEWS STYLES START=============== */
 
 /* ============= ADVANTAGES SECTION START================ */
 
@@ -748,6 +756,10 @@ button.input-control {
 .btn-wrapp {
   width: 100%;
 }
+
+/* ============= ADVANTAGES SECTION END================ */
+
+/* ============= FOOTER START================ */
 
 .footer {
   padding: 35px 0 24px 0;
@@ -828,29 +840,29 @@ button.input-control {
 .social-icons:hover {
   filter: none;
 }
-.payment-btns>button{
+.payment-btns > button {
   padding: 0;
 }
-.payment-img{
+.payment-img {
   width: 100%;
   height: auto;
-  
 }
-.payment-master{
+.payment-master {
   margin-left: 10px;
 }
-.protect{
+.protect {
   font-weight: 700;
 }
 
-  
-.protect span{
-  background: #7E8183;
+.protect span {
+  background: #7e8183;
   color: #1c1e1f;
   padding: 2px;
   margin-left: 6px;
 }
 
-.footer-year{
-  color: #3A3A3A;
+.footer-year {
+  color: #3a3a3a;
 }
+
+/* ============= FOOTER START================ */
