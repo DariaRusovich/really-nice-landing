@@ -789,6 +789,10 @@ button.input-control {
 .footer-menu > li:not(:first-child) {
   margin-top: 5px;
 }
+.footer-tel span{
+  margin-top: 5px;
+}
+
 
 .icons-footer > i {
   color: #fff;
