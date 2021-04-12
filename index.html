@@ -227,17 +227,33 @@
             </select>
           </div>
 
-          <div class="mb-3 form-control input-control">
-            <button class="btn btn-input" type="button">-</button>
-            <input
-              type="text"
-              class="input-range"
-              placeholder="100"
-              aria-label="Choose number"
-              aria-describedby="button-addon2"
-            />
-            <button class="btn btn-input" type="button">+</button>
+
+          <div class="input-group mb-3">
+           <div class="btn-input-group input-control">
+            <button
+            class="btn"
+            type="button"
+            id="button-addon1"
+          >
+            -
+          </button>
+          <input
+            type="text"
+            class="form-control input-range"
+            value="100"
+            aria-label="Example text with button addon"
+            aria-describedby="button-addon1"
+          />
+          <button
+            class="btn"
+            type="button"
+            id="button-addon2"
+          >
+            +
+          </button>
+           </div>
           </div>
+
           <div class="input-group mb-3">
             <input
               type="date"

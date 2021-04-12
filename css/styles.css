@@ -661,15 +661,21 @@ button.input-control {
 .input-control:focus {
   border: 1px solid #c774ee;
 }
-.input-range::placeholder {
-  text-align: center;
-  font-size: 15px;
-  color: #111563;
+.form-control.input-range {
+    padding: 0;
+    color: #111563;
+    background-color: #f9fafc;
+    border: none;
+    text-align: center;
 }
 .input-date {
   text-align: center;
 }
-
+.btn-input-group{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 .calc-result {
   font-size: 22px;
   text-align: center;
@@ -872,16 +878,26 @@ button.input-control {
 
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+
+ }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+
+ }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+
+ }
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+
+ }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) { 
+
+ }
