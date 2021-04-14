@@ -205,7 +205,7 @@
           <p class="lh-base main-text">
             Nam libero tempore, cum soluta nobis est eligendi optio
           </p>
-          <div class="input-group mb-3">
+          <div class="mb-3">
             <select
               class="form-select input-control"
               id="inputGroupSelect01"
@@ -218,7 +218,7 @@
             </select>
           </div>
 
-          <div class="input-group mb-3">
+          <div class="mb-3">
             <select class="form-select input-control" aria-label="Select size">
               <option selected>Size</option>
               <option value="1">One</option>
@@ -254,7 +254,7 @@
            </div>
           </div>
 
-          <div class="input-group mb-3">
+          <div class="mb-3">
             <input
               type="date"
               class="form-control input-control input-date"
@@ -262,7 +262,7 @@
               aria-describedby="basic-addon1"
             />
           </div>
-          <div class="input-group mb-3">
+          <div class="mb-3">
             <select class="form-select input-control" aria-label="Select city">
               <option selected>City</option>
               <option value="1">One</option>
@@ -270,7 +270,7 @@
               <option value="3">Three</option>
             </select>
           </div>
-          <div class="input-group mb-3">
+          <div class="mb-3">
             <select
               class="form-select input-control"
               aria-label="Select delivery"
@@ -288,7 +288,7 @@
     </div>
 
     <section class="section-reviews mt-5">
-      <div class="container row mb-5">
+      <div class="container">
         <h2 class="title fw-bold lh-1 mb-3">Reviews</h2>
         <p class="lh-base main-text">
           Nam libero tempore, cum soluta nobis est
@@ -431,13 +431,21 @@
               <p class="mt-2">Category|Subcategory</p>
             </div>
           </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
+          
         </div>
+       
+        <div class="link-wrap">
+          <a href="#" class="swiper-link">
+            Read more
+          </a>
+        </div> 
+        
+          <div class="swiper-pagination"></div>
+              
       </div>
     </section>
 
-    <section class="features">
+    <section class="section-features">
       <div class="container">
         <h2 class="title fw-bold lh-1 mb-3">
           Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut
@@ -846,7 +854,8 @@
     <script>
       var swiper = new Swiper(".reviews-slider", {
         slidesPerView: 1,
-        spaceBetween: 20,
+        spaceBetween: 24,
+        centeredSlides: true,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,

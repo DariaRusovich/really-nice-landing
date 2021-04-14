@@ -649,6 +649,10 @@ button {
   line-height: 20px;
   color: #111563;
 }
+.input-group .input-control{
+  padding: 3px;
+}
+
 .btn-input {
   padding: 0;
 }
@@ -704,13 +708,52 @@ button.input-control {
 .icon-marks {
   width: 100%;
 }
-.reviews-slider .swiper-pagination-bullet {
+.swiper-container.reviews-slider{
+  padding: 16px;
+}
+.link-wrap{
+  text-align: center;
+}
+.swiper-link{
+  color: #C774EE;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 15px;
+  
+  position: relative;
+}
+.swiper-link::after{
+  content: url(../img/Line.svg);
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+
+.section-reviews{
+  position: relative;
+}
+.section-reviews .swiper-pagination{
+  top: 103%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section-reviews .swiper-pagination-bullet {
   width: 15px;
   height: 15px;
   background: #286dbd;
 }
+.section-reviews .swiper-pagination-bullet:not(:first-child){
+  margin-left: 15px;
+}
 
 /* =============FEATURE SECTION START================ */
+
+.section-features{
+margin-top: 100px;
+
+}
+
 
 /* .feature-nav{
  flex-wrap: nowrap;
