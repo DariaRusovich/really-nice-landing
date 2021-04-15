@@ -650,7 +650,7 @@ button {
   color: #111563;
 }
 .input-group .input-control{
-  padding: 3px;
+  padding: 3.5px;
 }
 
 .btn-input {
@@ -982,4 +982,13 @@ margin-left: 72px;
   .hero{
     padding: 198px 0 105px 0; 
   }
+  .wrapper .input-control{
+    width: 185px;
+  }
+  .inputs-wrapper {
+    width: 380px;
+}
+.btn-form{
+  width: 100%;
+}
  }
