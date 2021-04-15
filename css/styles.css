@@ -918,6 +918,7 @@ margin-top: 100px;
   color: #3a3a3a;
 }
 
+
 /* ============= FOOTER START================ */
 
 
@@ -931,7 +932,21 @@ margin-top: 100px;
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-
+.container{
+  max-width: 720px;
+}
+.form-wrapper{
+  width: 100%;
+}
+.inputs-wrapper{
+  width: 300px;
+}
+.form-wrapper>.inputs-wrapper:not(:first-child){
+  margin-left: 20px;
+}
+.label-wrapper>.btn-form{
+margin-left: 72px;
+}
  }
 
 /* Large devices (desktops, 992px and up)*/
