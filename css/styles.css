@@ -764,7 +764,9 @@ margin-top: 100px;
 /* ==========SECTION REVIEWS STYLES START=============== */
 
 /* ============= ADVANTAGES SECTION START================ */
-
+.advantages-list{
+  margin-left: 20px;
+}
 .advantages-list > li {
   list-style-type: none;
   position: relative;
@@ -778,7 +780,7 @@ margin-top: 100px;
   content: url(../img/ellipse.svg);
   width: 10px;
   height: 10px;
-  padding-right: 30px;
+  padding-right: 20px;
   position: absolute;
   top: 0;
   right: 100%;
@@ -946,6 +948,9 @@ margin-top: 100px;
 }
 .label-wrapper>.btn-form{
 margin-left: 72px;
+}
+.footer-wrapper>.footer-elems:not(:first-child){
+  margin-left: 140px;
 }
  }
 

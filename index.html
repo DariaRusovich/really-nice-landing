@@ -605,41 +605,43 @@
 
     <section class="condition">
       <div class="container">
-        <picture class="col-12 order-1 mt-5">
-          <source srcset="img/man-image.webp" type="image/webp" />
-          <source srcset="img/man-image.png" type="image/png" />
-          <img
-            src="/img/man-image.png"
-            class="d-block mx-lg-auto img-fluid hero-img"
-            alt="Requirements-image"
-            width="1"
-            height="1"
-            loading="lazy"
-          />
-        </picture>
-        <h2 class="title fw-bold lh-1 mb-3 mt-3">
-          Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut
-          fugit
-        </h2>
-        <p class="lh-base main-text">
-          At vero eos et accusamus et iusto odio dignissimos ducimus, qui
-          blanditiis praesentium voluptatum deleniti atque corrupti, quos
-          dolores et quas molestias excepturi sint, obcaecati cupiditate non
-          provident, similique sunt in culpa, qui officia deserunt mollitia
-          animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
-          est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-          eligendi optio, cumque nihil impedit, quo minus id, quod maxime
-          placeat, facere possimus, omnis voluptas assumenda est.
-        </p>
-        <p class="lh-base main-text">
-          Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-          tempore, cum soluta nobis est eligendi optio, cumque nihil impedit,
-          quo minus id, quod maxime placeat, facere possimus, omnis voluptas
-          assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et
-          aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et
-          voluptates repudiandae sint et molestiae non recusandae. Itaque earum
-          rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus.
-        </p>
+        <div class="row justify-content-md-center">
+          <picture class="col-md-8 mt-5">
+            <source srcset="img/man-image.webp" type="image/webp" />
+            <source srcset="img/man-image.png" type="image/png" />
+            <img
+              src="/img/man-image.png"
+              class="d-block mx-lg-auto img-fluid hero-img"
+              alt="Requirements-image"
+              width="1"
+              height="1"
+              loading="lazy"
+            />
+          </picture>
+          <h2 class="title fw-bold lh-1 mb-3 mt-3">
+            Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut
+            fugit
+          </h2>
+          <p class="lh-base main-text">
+            At vero eos et accusamus et iusto odio dignissimos ducimus, qui
+            blanditiis praesentium voluptatum deleniti atque corrupti, quos
+            dolores et quas molestias excepturi sint, obcaecati cupiditate non
+            provident, similique sunt in culpa, qui officia deserunt mollitia
+            animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
+            est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+            eligendi optio, cumque nihil impedit, quo minus id, quod maxime
+            placeat, facere possimus, omnis voluptas assumenda est.
+          </p>
+          <p class="lh-base main-text">
+            Et harum quidem rerum facilis est et expedita distinctio. Nam libero
+            tempore, cum soluta nobis est eligendi optio, cumque nihil impedit,
+            quo minus id, quod maxime placeat, facere possimus, omnis voluptas
+            assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et
+            aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et
+            voluptates repudiandae sint et molestiae non recusandae. Itaque earum
+            rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -741,95 +743,103 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer-nav d-flex justify-content-between">
-          <ul class="footer-menu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <ul class="footer-menu">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Reviews</a></li>
-          </ul>
+        <div class="d-md-flex footer-wrapper">
+          <div class="footer-elems">
+            <div class="footer-nav d-flex justify-content-between">
+              <ul class="footer-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+              <ul class="footer-menu">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Reviews</a></li>
+              </ul>
+            </div>
+            <a class="footer-tel flex-column mt-md-5" href="tel:+49(621) 53399112">
+              +49(621) 53399112 <span>Call us!</span>
+            </a>
+    
+            <div class="icons-footer d-flex mt-5 mt-md-4 align-items-center">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <p>4.5<span>/</span>5</p>
+            </div>
+            <button
+              class="btn footer-drop-btn mt-5 mt-md-4"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Info
+            </button>
+            <ul class="dropdown-menu mt-md-4">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+           </div>
+            <div class="footer-elems">
+              <div class="social-group mt-5 mt-md-0">
+                <a
+                  href="#"
+                  class="icon-facebook social-icons"
+                  aria-label="Go to Facebook"
+                ></a>
+                <a
+                  href="#"
+                  class="icon-instagram social-icons"
+                  aria-label="Go to Instagram"
+                ></a>
+                <a
+                  href="#"
+                  class="icon-youtube social-icons"
+                  aria-label="Go to Youtube"
+                ></a>
+                <a
+                  href="#"
+                  class="icon-pint social-icons"
+                  aria-label="Go to Pinterest"
+                ></a>
+              </div>
+              <div class="payment-btns mt-5">
+                <button class="payment-visa">
+                  <img
+                    width="1"
+                    height="1"
+                    loading="lazy"
+                    src="./img/cc-visa.svg"
+                    alt="Visa"
+                    class="payment-img"
+                  />
+                </button>
+                <button class="payment-master">
+                  <img
+                    width="1"
+                    height="1"
+                    loading="lazy"
+                    src="./img/cc-mastercard.svg"
+                    alt="Visa"
+                    class="payment-img"
+                  />
+                </button>
+              </div>
+              <div class="protect mt-5">
+                <p>DMCA<span>PROTECTED</span></p>
+              </div>
+            </div>
+    
         </div>
-        <a class="footer-tel flex-column" href="tel:+49(621) 53399112">
-          +49(621) 53399112 <span>Call us!</span>
-        </a>
-
-        <div class="icons-footer d-flex mt-5 align-items-center">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-          <p>4.5<span>/</span>5</p>
-        </div>
-        <button
-          class="btn footer-drop-btn mt-5"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Info
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-          <li><hr class="dropdown-divider" /></li>
-          <li><a class="dropdown-item" href="#">Separated link</a></li>
-        </ul>
-        <div class="social-group mt-5">
-          <a
-            href="#"
-            class="icon-facebook social-icons"
-            aria-label="Go to Facebook"
-          ></a>
-          <a
-            href="#"
-            class="icon-instagram social-icons"
-            aria-label="Go to Instagram"
-          ></a>
-          <a
-            href="#"
-            class="icon-youtube social-icons"
-            aria-label="Go to Youtube"
-          ></a>
-          <a
-            href="#"
-            class="icon-pint social-icons"
-            aria-label="Go to Pinterest"
-          ></a>
-        </div>
-        <div class="payment-btns mt-5">
-          <button class="payment-visa">
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              src="./img/cc-visa.svg"
-              alt="Visa"
-              class="payment-img"
-            />
-          </button>
-          <button class="payment-master">
-            <img
-              width="1"
-              height="1"
-              loading="lazy"
-              src="./img/cc-mastercard.svg"
-              alt="Visa"
-              class="payment-img"
-            />
-          </button>
-        </div>
-        <div class="protect mt-5">
-          <p>DMCA<span>PROTECTED</span></p>
-        </div>
-
+      
+          
         <a href="#" class="footer-year mt-4">
           © Copyright 2016-<span id="copyYear">2019</span>
         </a>
