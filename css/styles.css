@@ -937,6 +937,9 @@ margin-top: 100px;
 .container{
   max-width: 720px;
 }
+.title{
+  font-size: 42px;
+}
 .form-wrapper{
   width: 100%;
 }
@@ -956,15 +959,27 @@ margin-left: 72px;
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
-
+  .container{
+    max-width: 960px;
+  }
+  .burger-img{
+    display: none;
+  }
  }
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
-
+  .container{
+    max-width: 1140px;
+  }
  }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) { 
-
+  .container{
+    max-width: 1180px;
+  }
+  .hero{
+    padding: 198px 0 105px 0; 
+  }
  }
