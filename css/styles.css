@@ -753,7 +753,10 @@ button.input-control {
 margin-top: 100px;
 
 }
-
+.feature-nav button:focus{
+  color: #c774ee;
+  font-weight: 700;
+}
 
 /* .feature-nav{
  flex-wrap: nowrap;
@@ -926,6 +929,7 @@ margin-top: 100px;
 
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (min-width: 320px) { 
+
   
  
  }
@@ -987,10 +991,7 @@ margin-left: 72px;
   .inputs-wrapper {
     width: 380px;
 }
-  .feature-nav button:focus{
-    color: #c774ee;
-    font-weight: 700;
-  }
+  
   .accordion-wrapper{
     max-width: 1044px;
   }
