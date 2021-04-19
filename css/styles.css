@@ -958,6 +958,9 @@ margin-top: 100px;
 .label-wrapper>.btn-form{
 margin-left: 72px;
 }
+.accordion-wrapper .title{
+  font-size: 32px;
+}
 .footer-wrapper>.footer-elems:not(:first-child){
   margin-left: 140px;
 }
@@ -987,6 +990,9 @@ margin-left: 72px;
   .feature-nav button:focus{
     color: #c774ee;
     font-weight: 700;
+  }
+  .accordion-wrapper{
+    max-width: 1044px;
   }
  }
 
