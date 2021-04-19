@@ -925,11 +925,17 @@ margin-top: 100px;
 
 
 /* X-Small devices (portrait phones, less than 576px)*/
-
+@media (min-width: 320px) { 
+  
+ 
+ }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
-
+  .container{
+    max-width: 540px;
+  }
+  
  }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -972,6 +978,16 @@ margin-left: 72px;
   .container{
     max-width: 1140px;
   }
+  .wrapper .input-control{
+    width: 185px;
+  }
+  .inputs-wrapper {
+    width: 380px;
+}
+  .feature-nav button:focus{
+    color: #c774ee;
+    font-weight: 700;
+  }
  }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
@@ -982,13 +998,5 @@ margin-left: 72px;
   .hero{
     padding: 198px 0 105px 0; 
   }
-  .wrapper .input-control{
-    width: 185px;
-  }
-  .inputs-wrapper {
-    width: 380px;
-}
-.btn-form{
-  width: 100%;
-}
+  
  }
