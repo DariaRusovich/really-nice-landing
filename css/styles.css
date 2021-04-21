@@ -601,3 +601,11 @@ button {
   width: 100%;
   height: auto;
 }
+.calc-form{
+  padding: 22px 10px 42px 10px;
+  box-shadow: 0px 0px 75px rgba(91, 167, 202, 0.15);
+}
+.calc-result{
+  color: var(--accent-color);
+  font-size: 22px;
+}
