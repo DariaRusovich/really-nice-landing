@@ -534,6 +534,7 @@ body {
   font-style: normal;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
+  padding-bottom: 1000px; /*development*/
 }
 picture {
   display: inline-block;
@@ -590,4 +591,13 @@ button {
 .article-btn:hover{
     box-shadow: 0px 5px 10px rgba(76, 174, 80, 0.3);
     color: var(--main-color);   
+}
+
+.picture{
+  width: 300px;
+  height: 225px;
+}
+.hero-img{
+  width: 100%;
+  height: auto;
 }
