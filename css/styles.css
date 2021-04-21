@@ -609,3 +609,24 @@ button {
   color: var(--accent-color);
   font-size: 22px;
 }
+
+.input-select{
+  background-color: hsl(220, 33%, 98%);
+box-shadow: 0px 1px 3px rgba(5, 41, 83, 0.14);
+border-radius: 10px;
+border: none;
+padding: 12px 20px;
+font-size: 15px;
+color: var(--title-color);
+}
+.input-group.input-select> .form-control{
+  border: none;
+  background-color: hsl(220, 33%, 98%);
+  color: var(--title-color);
+}
+.input-group button{
+  color: var(--title-color);
+}
+.input-group.input-select{
+  padding: 4px 20px;
+}
