@@ -23,6 +23,18 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css"
+      integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css"
+      integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni"
+      crossorigin="anonymous"
+    />
     <title>Really nice landing2</title>
   </head>
   <body>
@@ -175,109 +187,239 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2 class="title">
-              Calculator
-            </h2>
+            <h2 class="title">Calculator</h2>
             <p class="content section-hero-content mt-3">
               Nam libero tempore, cum soluta nobis est eligendi optio
             </p>
-            <form 
-            class="form">
-            <select class="form-select input-select" aria-label="Default select example">
-              <option selected>Color</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <select class="form-select input-select mt-3" aria-label="Default select example">
-              <option selected>Size</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+            <form class="form">
+              <select
+                class="form-select input-select"
+                aria-label="Default select example"
+              >
+                <option selected>Color</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <select
+                class="form-select input-select mt-3"
+                aria-label="Default select example"
+              >
+                <option selected>Size</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
 
-            <div class="input-group input-select mt-3 ">
-              <button class="btn" 
-              type="button" 
-              id="button-addon1">-</button>
-              <input type="text" class="form-control text-center" value="100" aria-label="Example text with button addon" 
-              aria-describedby="button-addon1">
-              <button class="btn" type="button" id="button-addon2">+</button>
-            </div>
-            <input
-            type="date"
-            class="form-control input-select input-date mt-3 text-center"
-            aria-label="Date"
-            aria-describedby="basic-addon1"
-          />
-            <select class="form-select input-select mt-3" aria-label="Default select example">
-              <option selected>City</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <select class="form-select input-select mt-3" aria-label="Default select example">
-              <option selected>Delivery</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <div class="label-wrapper d-flex flex-column align-items-center ">
-              <label class="calc-result fw-bold mt-3" for="form">56.25$</label>
-              <button class="article-btn btn btn-lg col-12 mt-4">Proceed</button>         
-             </div>
-          </form>
-          
+              <div class="input-group input-select mt-3">
+                <button class="btn" type="button" id="button-addon1">-</button>
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  value="100"
+                  aria-label="Example text with button addon"
+                  aria-describedby="button-addon1"
+                />
+                <button class="btn" type="button" id="button-addon2">+</button>
+              </div>
+              <input
+                type="date"
+                class="form-control input-select input-date mt-3 text-center"
+                aria-label="Date"
+                aria-describedby="basic-addon1"
+              />
+              <select
+                class="form-select input-select mt-3"
+                aria-label="Default select example"
+              >
+                <option selected>City</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <select
+                class="form-select input-select mt-3"
+                aria-label="Default select example"
+              >
+                <option selected>Delivery</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div class="label-wrapper d-flex flex-column align-items-center">
+                <label class="calc-result fw-bold mt-3" for="form"
+                  >56.25$</label
+                >
+                <button class="article-btn btn btn-lg col-12 mt-4">
+                  Proceed
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="reviews">
+    <section class="section-reviews">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2 class="title">
-              Reviews
-            </h2>
+            <h2 class="title">Reviews</h2>
             <p class="content section-hero-content mt-3">
-              Nam libero tempore, cum soluta nobis est 
+              Nam libero tempore, cum soluta nobis est
             </p>
-
-
-            <div class="swiper-container">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <span class="quotes"></span>
-                  
+            <!-- Slider main container -->
+        <div class="swiper-container reviews-slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide slider-card">
+              <div class="marks d-flex flex-column align-items-end mb-3">
+                <div
+                  class="icon-marks d-flex flex-row align-items-center justify-content-between"
+                >
+                  <span class="bg-card"></span>
+                  <div class="icon-wrapp d-flex align-items-center">
+                    <p class="mb-0">5.0</p>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
                   </div>
                 </div>
-
-                <div class="swiper-slide">
-
-                </div>
-
-                <div class="swiper-slide">
-
-                </div>
-
-                ...
               </div>
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
-            
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-            
-              <!-- If we need scrollbar -->
-              <div class="swiper-scrollbar"></div>
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+              <div class="user d-flex align-items-center mt-5">
+                <img
+                  class="avatar me-3"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                  src="./img/user.svg"
+                  alt="Avatar"
+                />
+                <span>ID: 21015</span>
+              </div>
+              <p class="mt-2">Category|Subcategory</p>
+            </div>
+            <div class="swiper-slide slider-card">
+              <div class="marks d-flex flex-column align-items-end mb-3">
+                <div
+                  class="icon-marks d-flex flex-row align-items-center justify-content-between"
+                >
+                  <span class="bg-card"></span>
+                  <div class="icon-wrapp d-flex align-items-center">
+                    <p class="mb-0">5.0</p>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+              <div class="user d-flex align-items-center mt-5">
+                <img
+                  class="avatar me-3"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                  src="./img/user.svg"
+                  alt="Avatar"
+                />
+                <span>ID: 21015</span>
+              </div>
+              <p class="mt-2">Category|Subcategory</p>
+            </div>
+            <div class="swiper-slide slider-card">
+              <div class="marks d-flex flex-column align-items-end mb-3">
+                <div
+                  class="icon-marks d-flex flex-row align-items-center justify-content-between"
+                >
+                  <span class="bg-card"></span>
+                  <div class="icon-wrapp d-flex align-items-center">
+                    <p class="mb-0">5.0</p>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+              <div class="user d-flex align-items-center mt-5">
+                <img
+                  class="avatar me-3"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                  src="./img/user.svg"
+                  alt="Avatar"
+                />
+                <span>ID: 21015</span>
+              </div>
+              <p class="mt-2">Category|Subcategory</p>
+            </div>
+            <div class="swiper-slide slider-card">
+              <div class="marks d-flex flex-column align-items-end mb-3">
+                <div
+                  class="icon-marks d-flex flex-row align-items-center justify-content-between"
+                >
+                  <span class="bg-card"></span>
+                  <div class="icon-wrapp d-flex align-items-center">
+                    <p class="mb-0">5.0</p>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+              <div class="user d-flex align-items-center mt-5">
+                <img
+                  class="avatar me-3"
+                  width="24"
+                  height="24"
+                  loading="lazy"
+                  src="./img/user.svg"
+                  alt="Avatar"
+                />
+                <span>ID: 21015</span>
+              </div>
+              <p class="mt-2">Category|Subcategory</p>
             </div>
           </div>
+          
         </div>
-      
+           
+        </div>
+
+        <div class="link-wrap">
+          <a href="#" class="swiper-link">
+            Read more
+          </a>
+        </div> 
+        
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
     </section>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -287,11 +429,40 @@
       crossorigin="anonymous"
     ></script>
     <!-- -------SWIPER-------- -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+    rel="preload"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    as="style"
+  />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- -------SWIPER-------- -->
-
-
+    <script>
+      var swiper = new Swiper(".reviews-slider", {
+        slidesPerView: 1,
+        spaceBetween: 24,
+        centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      loop: true,
+    },
+    1400: {
+      slidesPerView: 3,
+      loop: true,
+      },
+    }
+    });
+    </script>
 
   </body>
 </html>
