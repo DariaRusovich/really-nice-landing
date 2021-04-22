@@ -597,7 +597,7 @@ button {
   width: 300px;
   height: 225px;
 }
-.hero-img{
+.content-img{
   width: 100%;
   height: auto;
 }
@@ -689,3 +689,5 @@ color: var(--title-color);
 .section-reviews .swiper-pagination-bullet:not(:first-child){
   margin-left: 15px;
 }
+/* ========SLIDER SECTION END=========== */
+
