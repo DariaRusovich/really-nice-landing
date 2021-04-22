@@ -718,10 +718,42 @@ color: var(--accent-color);
   content: url(../img/ellipse.svg);
   width: 10px;
   height: 10px;
-  padding-right: 20px;
+  padding-right: 30px;
   position: absolute;
   top: 0;
   right: 100%;
 }
 
 /* ===========ADVANTAGES SECTION END===========  */
+
+/* ===========ACCORDION SECTION START=========== */
+
+.accordion-item .section-accordion-btn {
+  color: var(--title-color);
+  font-size: 18px;
+  font-weight: 700;
+  background-color: var(--main-color);
+  box-shadow: none;
+  
+  
+}
+.item-accordion-btn {
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);  
+}
+
+.item-accordion-btn:not(:first-child) {
+  margin-top: 20px;
+}
+.accordion-text{
+  position: relative;
+}
+.accordion-text::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  height: 1px;
+  width: 260px;
+  background-color: #F0F4FD;
+}
