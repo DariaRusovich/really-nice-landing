@@ -63,20 +63,24 @@
             <span class="burger-icon" aria-label="Burger-menu"> </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <button class="search ms-auto" 
-            aria-label="button search"></button>
-            <a href="tel:+49(621) 53399112" 
-            class="contacts">
-              <span>Call us</span>
-            </a>
-
-            <ul class="navbar-nav mb-2 mb-lg-0">
+            
+          
+           
+            
+           
+              <button class="ms-lg-auto">
+                <span class="search-icon" aria-label="button search"></span>
+              </button>
+              <a href="tel:+49(621) 53399112" class="contacts ms-3">
+                <span class="ms-1 fw-bold">Call us</span>
+              </a>
+           
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-4">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Product</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -87,20 +91,19 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  FAQ
                 </a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="#"
-                  tabindex="-1"
-                  >Disabled</a
-                >
+                <a class="nav-link" href="#" tabindex="-1">Contact</a>
               </li>
             </ul>
-            <button type="button" class="article-btn btn btn-sm">Small button</button>
-            <button type="button" class="header-btn btn btn-sm ms-1">Small button</button>
+            <button type="button" class="article-btn btn btn-sm ms-lg-4">
+              Download
+            </button>
+            <button type="button" class="header-btn btn btn-sm ms-3">
+              Sign up
+            </button>
           </div>
         </nav>
       </div>
@@ -108,22 +111,24 @@
     <section class="section-hero mt-5">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <h1 class="title col-md-10">
-              At vero eos et accusamus et iusto odio dignissimos ducimus
-            </h1>
-            <p class="content section-hero-content mt-3">
-              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
-              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
-              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
-              autem quibusdam et aut officiis debitis aut rerum necessitatibus
-              saepe eveniet, ut et voluptates repudiandae sint et molestiae non
-              recusandae.
-            </p>
-            <button class="article-btn btn btn-lg col-12 col-md-5 mt-3">
-              Try for free
-            </button>
-            <picture class="picture col-md-8 offset-md-2 mt-5 mb-5">
+          <div class="d-xl-flex justify-content-xl-between align-items-xl-center">
+            <div class="col-md-10 col-xl-6">
+              <h1 class="title ">
+                At vero eos et accusamus et iusto odio dignissimos ducimus
+              </h1>
+              <p class="content section-hero-content mt-3">
+                Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+                nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+                autem quibusdam et aut officiis debitis aut rerum necessitatibus
+                saepe eveniet, ut et voluptates repudiandae sint et molestiae non
+                recusandae.
+              </p>
+              <button class="article-btn btn btn-lg col-12 col-md-5 mt-3">
+                Try for free
+              </button>
+            </div>
+            <picture class="picture col-md-8 col-xl-6 offset-md-2 offset-xl-0 mt-5 mt-xl-0 mb-5">
               <source srcset="img/promo-image.webp" type="image/webp" />
               <source srcset="img/promo-image.png" type="image/png" />
               <img
@@ -139,25 +144,27 @@
         </div>
       </div>
     </section>
-    <section class="requirements-section mt-5 mb-5">
+    <section class="requirements-section mt-5 mb-5 mt-xl-0">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <h2 class="title col-md-10">
-              Temporibus autem quibusdam et aut officiis debitis
-            </h2>
-            <p class="content mt-3">
-              In Deutschland, sprich: an verschiedenen Schulen bestehen zum Teil
-              deutliche Unterschiede hinsichtlich den Anforderungen an eine
-              Facharbeit; sie beziehen sich vor allem auf den Umfang, die
-              gewährte Schreibfrist und den Grad an notwendigen Kompetenzen.
-              Zudem können die Erwartungen der einzelnen Dozenten mehr oder
-              weniger weit auseinanderliegen.
-            </p>
-            <button class="article-btn btn btn-lg col-6 col-md-3 mt-3">
-              Try for free
-            </button>
-            <picture class="picture mt-5 col-md-8 offset-md-2">
+          <div class="d-xl-flex justify-content-xl-between align-items-xl-center">
+            <div class="col-md-10 col-xl-6 order-xl-1">
+              <h2 class="title col-md-10">
+                Temporibus autem quibusdam et aut officiis debitis
+              </h2>
+              <p class="content mt-3">
+                In Deutschland, sprich: an verschiedenen Schulen bestehen zum Teil
+                deutliche Unterschiede hinsichtlich den Anforderungen an eine
+                Facharbeit; sie beziehen sich vor allem auf den Umfang, die
+                gewährte Schreibfrist und den Grad an notwendigen Kompetenzen.
+                Zudem können die Erwartungen der einzelnen Dozenten mehr oder
+                weniger weit auseinanderliegen.
+              </p>
+              <button class="article-btn btn btn-lg col-6 col-md-3 mt-3">
+                Try for free
+              </button>
+            </div>
+            <picture class="picture mt-5 mt-xl-0 col-md-8 col-xl-6 offset-md-2 offset-xl-0 ">
               <source srcset="img/requirements-image.webp" type="image/webp" />
               <source srcset="img/requirements-image.png" type="image/png" />
               <img
@@ -182,71 +189,77 @@
               Nam libero tempore, cum soluta nobis est eligendi optio
             </p>
             <form class="form">
-             <div class="form-wrapper d-md-flex justify-content-md-center">
-              <div class="input-wrapper col-md-5">
-                <select
-                class="form-select input-select"
-                aria-label="Default select example"
-              >
-                <option selected>Color</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <select
-                class="form-select input-select mt-3"
-                aria-label="Default select example"
-              >
-                <option selected>Size</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+              <div class="form-wrapper d-md-flex justify-content-md-center">
+                <div class="input-wrapper col-md-5">
+                  <select
+                    class="form-select input-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Color</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <select
+                    class="form-select input-select mt-3"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Size</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
 
-              <div class="input-group input-select mt-3">
-                <button class="btn" type="button" id="button-addon1">-</button>
-                <input
-                  type="text"
-                  class="form-control text-center"
-                  value="100"
-                  aria-label="Example text with button addon"
-                  aria-describedby="button-addon1"
-                />
-                <button class="btn" type="button" id="button-addon2">+</button>
+                  <div class="input-group input-select mt-3">
+                    <button class="btn" type="button" id="button-addon1">
+                      -
+                    </button>
+                    <input
+                      type="text"
+                      class="form-control text-center"
+                      value="100"
+                      aria-label="Example text with button addon"
+                      aria-describedby="button-addon1"
+                    />
+                    <button class="btn" type="button" id="button-addon2">
+                      +
+                    </button>
+                  </div>
+                </div>
+                <div class="input-wrapper col-md-5 ms-md-3">
+                  <input
+                    type="date"
+                    class="form-control input-select input-date mt-3 mt-md-0 text-center"
+                    aria-label="Date"
+                    aria-describedby="basic-addon1"
+                  />
+                  <select
+                    class="form-select input-select mt-3"
+                    aria-label="Default select example"
+                  >
+                    <option selected>City</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <select
+                    class="form-select input-select mt-3"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Delivery</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
               </div>
-              </div>
-              <div class="input-wrapper col-md-5 ms-md-3">
-                <input
-                type="date"
-                class="form-control input-select input-date mt-3 mt-md-0 text-center"
-                aria-label="Date"
-                aria-describedby="basic-addon1"
-              />
-              <select
-                class="form-select input-select mt-3"
-                aria-label="Default select example"
-              >
-                <option selected>City</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <select
-                class="form-select input-select mt-3"
-                aria-label="Default select example"
-              >
-                <option selected>Delivery</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              </div>
-             </div>
               <div class="label-wrapper d-flex flex-column align-items-center">
                 <label class="calc-result fw-bold mt-3" for="form"
                   >56.25$</label
                 >
-                <button class="article-btn btn btn-lg col-12 col-md-5 ms-md-3 mt-4">
+                <button
+                  class="article-btn btn btn-lg col-12 col-md-5 ms-md-3 mt-4"
+                >
                   Proceed
                 </button>
               </div>
@@ -260,7 +273,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2 class="title ">Reviews</h2>
+            <h2 class="title">Reviews</h2>
             <p class="content section-hero-content mt-3">
               Nam libero tempore, cum soluta nobis est
             </p>
@@ -705,7 +718,7 @@
               </div>
             </div>
 
-            <div class="d-grid gap-2 col-6 col-md-3 mx-auto mt-4 ">
+            <div class="d-grid gap-2 col-6 col-md-3 mx-auto mt-4">
               <button class="article-btn btn btn-lg">Try for free</button>
             </div>
           </div>
@@ -740,8 +753,10 @@
                 >
                   +49(621) 53399112 <span>Call us!</span>
                 </a>
-  
-                <div class="icons-footer d-flex mt-5 mt-md-4 align-items-center">
+
+                <div
+                  class="icons-footer d-flex mt-5 mt-md-4 align-items-center"
+                >
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -832,17 +847,18 @@
                 </a>
               </div>
             </div>
-            
           </div>
-          <a href="#" 
+          <a
+            href="#"
             class="footer-year mt-4"
-            target="_blank" 
-            rel="noopener noreferrer nofollow">
-              © Copyright 2016-<span id="copyYear">2019</span>
-            </a>
-            <script>
-              copyYear.textContent = new Date().getFullYear();
-            </script>
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
+            © Copyright 2016-<span id="copyYear">2019</span>
+          </a>
+          <script>
+            copyYear.textContent = new Date().getFullYear();
+          </script>
         </div>
       </div>
     </footer>
