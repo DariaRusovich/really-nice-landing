@@ -965,4 +965,8 @@ button {
   .advantages {
     padding: 115px 0;
   }
+  
+  .accordion-section-wrapper{
+    padding: 105px 115px;
+  }
 }
