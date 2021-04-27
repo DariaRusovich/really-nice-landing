@@ -940,7 +940,7 @@ button {
   .tabs-wrapper {
     font-size: 18px;
   }
-  .tab-list > li{
+  .tab-list > li {
     position: relative;
   }
   .tab-list > li::before {
@@ -950,19 +950,19 @@ button {
     top: 50%;
     left: 0;
     position: absolute;
-    background: #63718E;
+    background: #63718e;
     border-radius: 40px;
     transition: 0.3s;
-
   }
-  .tab-list > li:hover::before{
+  .tab-list > li:hover::before {
     width: 40px;
     height: 2px;
     background-color: var(--accent-color);
   }
-  .tab-list button{
+  .tab-list button {
     padding-left: 45px;
   }
-
-  
+  .advantages {
+    padding: 115px 0;
+  }
 }
