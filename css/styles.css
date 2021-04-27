@@ -927,10 +927,19 @@ width: 100%;
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) { 
   .container{
-    max-width: 1180px;
+    max-width: 1320px;
   }
   .section-hero{
     padding: 105px 0;
   }
-  
+  .content{
+    font-size: 18px;  
+}
+  .form{
+    width: 100%;
+  }
+  .tabs-wrapper{
+  font-size: 18px;
+  }
+
  }
