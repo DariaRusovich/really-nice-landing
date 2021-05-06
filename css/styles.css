@@ -906,6 +906,9 @@ button {
   .title {
     font-size: 32px;
   }
+  .form .article-btn{
+    width: 100%;
+  }
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
