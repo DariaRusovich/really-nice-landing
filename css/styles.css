@@ -963,6 +963,13 @@ left: 5%;
     bottom: 75%;
     left: 50%;
 }
+.section-condition-wrap .section-card {
+  bottom: 85%;
+  left: 10%;
+}
+.section-condition .content {
+  margin-top: 50px;
+}
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
