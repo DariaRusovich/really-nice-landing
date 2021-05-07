@@ -922,6 +922,10 @@ margin-bottom: 0;
   .form .article-btn{
     width: 100%;
   }
+  .calc-form{
+    margin-top: 220px;
+  }
+  
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -942,7 +946,11 @@ margin-bottom: 0;
   .title {
     font-size: 32px;
   }
-  
+  .section-card {
+    width: 21rem;
+    bottom: 75%;
+    left: 50%;
+}
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
