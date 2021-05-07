@@ -773,6 +773,18 @@ margin-bottom: 0;
 }
 
 /* ===========ADVANTAGES SECTION END===========  */
+/* ===========CONDITION SECTION START===========  */
+.section-condition-wrap{
+  position: relative;
+}
+.section-condition-wrap .section-card{
+bottom: 80%;
+left: 5%;
+}
+.section-condition .content{
+  margin-top: 120px;
+}
+/* ===========CONDITION SECTION END===========  */
 
 /* ===========ACCORDION SECTION START=========== */
 
