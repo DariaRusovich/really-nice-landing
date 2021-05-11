@@ -959,7 +959,6 @@ left: 5%;
     font-size: 32px;
   }
   .section-card {
-    width: 21rem;
     bottom: 75%;
     left: 50%;
 }
@@ -991,6 +990,9 @@ left: 5%;
   .section-condition .picture{
     width: 430px;
   }
+  .section-card {
+    bottom: 50%;
+}
 }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
