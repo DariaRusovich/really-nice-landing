@@ -985,6 +985,12 @@ left: 5%;
   .container {
     max-width: 1140px;
   }
+  .section-card-wrap .picture{
+    width: 630px;
+  }
+  .section-condition .picture{
+    width: 430px;
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
