@@ -688,7 +688,6 @@ margin-bottom: 0;
   box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
   border-radius: 8px;
   padding: 60px 18px;
-  max-width: 380px;
 }
 .swiper.reviews-slider{
   padding: 20px;
@@ -733,7 +732,7 @@ margin-bottom: 0;
   top: 103%;
 }
 .slider-section-text{
-  width: 298px;
+  width: 100%;
 }
 .section-reviews .swiper-pagination-bullet {
   width: 15px;
@@ -950,6 +949,12 @@ left: 5%;
   .container {
     max-width: 540px;
   }
+  .swiper.reviews-slider {
+    padding: 10px;
+}
+  .slider-card {
+  box-shadow: 0px 2px 10px rgb(32 108 164 / 16%);
+}
 }
 
 /*Medium devices (tablets, 768px and up)*/
