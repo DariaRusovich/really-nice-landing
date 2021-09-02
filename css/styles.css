@@ -687,7 +687,11 @@ margin-bottom: 0;
 .slider-card {
   box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
   border-radius: 8px;
-  padding: 37px 18px;
+  padding: 60px 18px;
+  max-width: 380px;
+}
+.swiper.reviews-slider{
+  padding: 20px;
 }
 .marks i:not(:first-child) {
   margin-left: 5px;
@@ -727,8 +731,9 @@ margin-bottom: 0;
 }
 .section-reviews .swiper-pagination {
   top: 103%;
-  left: 50%;
-  transform: translateX(-50%);
+}
+.slider-section-text{
+  width: 298px;
 }
 .section-reviews .swiper-pagination-bullet {
   width: 15px;
